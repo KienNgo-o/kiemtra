@@ -50,11 +50,3 @@ void output(int a[], const int&n)
         cout << a[i] << " ";
     cout << endl;
 }
-
-int main () 
-{
-    int arr[1000], n;
-    input(arr, n);
-    sort(arr, n);
-    output(arr, n);
-}
