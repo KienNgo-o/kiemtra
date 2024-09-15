@@ -24,11 +24,3 @@ void output (int a[], const int&n)
     for (int i = 0; i < n; i++) 
         cout << a[i] << " ";
 }
-
-int main () {
-    int n;
-    int arr[1000];
-    input(arr, n);
-    selectionSort(arr, n);
-    output(arr, n);
-}
